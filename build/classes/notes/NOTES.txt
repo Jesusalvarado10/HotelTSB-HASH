@@ -1,0 +1,34 @@
+[+] LinkedList
+    [-] Removers and adders
+
+UI:
+    Usuario:
+	-Ver clientes hospedados (Actualmente):
+            + Apellido
+            + Nombre
+		=> Número de habitación
+		=> O(1)
+
+    Administrador:
+        -Buscar reservación:
+            + DNI cliente
+                => Datos de la reservación (Si existe)
+                => O(log N)
+
+        -Historial de hospedaje por habitación:
+            + Número hab
+                => Lista de clientes que se han hospedado
+                => O(log N)
+                => Utilizar un ABB (La solución debe ser implementada con base en la utilización de tablas de dispersión y ABB. Puede, sin embargo, utilizar otros TDA auxiliares.)
+
+        -Check-In:
+            + Reservación (Información del cliente)
+                => Asigna al cliente la habitación
+                => Ocupa la habitación
+                => Guarda los datos en el registro de huéspedes del hotel
+
+        -Check-Out:
+            + Terminar estadía
+                => Cierra registro del cliente
+                => Habitación disponible
+                => Actualiza el historial

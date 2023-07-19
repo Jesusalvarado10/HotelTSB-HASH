@@ -1,0 +1,19 @@
+[+] excelManager:
+    [-] leerExcel
+        [#] Leer hojas
+            - Leer excel
+            - Estado
+            - Histórico
+
+[+] App:
+    [-] searchReservation:
+        - Buscar reservación
+
+[+] LinkedList:
+    [-] seachBina:
+        - Controlar error de superior y inferior DNI
+        - Lista con tamaño 1 en bucle (Arreglado)
+        
+    [-] searchBedroomHistorial:
+        - numBedroom
+
